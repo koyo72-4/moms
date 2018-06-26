@@ -8,6 +8,30 @@ header #top-links {
     justify-content: space-between;
 }
 
+#newsletter-sign-up {
+    background-color: #E37B91;
+    padding: 20px 10px 10px 10px;
+}
+
+#email-flexbox {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#newsletter-sign-up p {
+    font-size: 25px;
+    font-family: sans-serif;
+    color: white;
+    text-align: right;
+    margin-bottom: 5px;
+}
+
+#newsletter-sign-up button {
+    background-color: #8B4A66;
+    color: white;
+    border: none;
+}
+
 .nav-flexbox {
     display: flex;
     flex-direction: row;
@@ -77,4 +101,11 @@ aside {
 
 .borders {
     background-color: #D8CBBC;
+}
+
+aside input[type="text"] {
+    background-image: url("./images/magnifying-glass.png");
+    background-size: 10px auto;
+    background-repeat: no-repeat;
+    background-position: right center;
 }
