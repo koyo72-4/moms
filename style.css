@@ -1,0 +1,30 @@
+header #top-links {
+    height: 50px;
+    background-color: orange;
+}
+
+.nav-flexbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+main {
+    background-color: blue;
+    width: 60%;
+    display: inline;
+
+}
+
+aside {
+    background-color: red;
+    width: 25%;
+    display: inline;
+}
+
+.main-flexbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 500px;
+}
