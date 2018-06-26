@@ -7,17 +7,16 @@ header #top-links {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    background-color: #BFDCCB;
 }
 
 main {
-    background-color: blue;
     width: 60%;
     display: inline;
-
+    height: 1000px;
 }
 
 aside {
-    background-color: red;
     width: 25%;
     display: inline;
 }
@@ -27,4 +26,26 @@ aside {
     flex-direction: row;
     justify-content: space-between;
     height: 500px;
+}
+
+#attribution-flexbox {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#attribution-flexbox p {
+    margin-right: 10px;
+}
+
+#first-article {
+    display: flex;
+}
+
+#first-article div {
+    display: flex;
+    flex-direction: column;
+}
+
+#second-article {
+    display: flex;
 }
