@@ -1,6 +1,11 @@
 header #top-links {
     height: 50px;
-    background-color: orange;
+    background-color: #FFC78F;
+}
+
+#header-flexbox {
+    display: flex;
+    justify-content: space-between;
 }
 
 .nav-flexbox {
@@ -48,4 +53,30 @@ aside {
 
 #second-article {
     display: flex;
+}
+
+#peeps-list li {
+    list-style-type: disc;
+}
+
+#vase-list li {
+    list-style-type: decimal;
+}
+
+#peeps-list {
+    margin-left: 20px;
+}
+
+#vase-list {
+    margin-left: 20px;
+}
+
+.div-center {
+    margin-left: 10%;
+    width: 80%;
+    background-color: white;
+}
+
+.borders {
+    background-color: #D8CBBC;
 }
