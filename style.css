@@ -17,13 +17,11 @@ header #top-links {
 
 main {
     width: 60%;
-    display: inline;
     height: 1000px;
 }
 
 aside {
     width: 25%;
-    display: inline;
 }
 
 .main-flexbox {
