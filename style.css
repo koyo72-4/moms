@@ -68,14 +68,14 @@ header #top-links-flexbox a {
 }
 
 main {
-    width: 60%;
+    width: 65%;
     height: 1000px;
     margin-left: 30px;
     font-family: "Lucida Sans";
 }
 
 aside {
-    width: 25%;
+    width: 35%;
 }
 
 .main-flexbox {
@@ -85,16 +85,26 @@ aside {
     height: 500px;
 }
 
+main p,
+main li {
+    font-size: 14px;
+}
+
 h1 {
     font: bold 24px "Lucida Sans";
     margin: 30px 0 5px 0;
 }
 
-h2 {
+h2  {
     font-weight: bold;
     font-size: 18px;
+}
+
+#sweeten {
     margin-bottom: 25px;
 }
+
+
 
 #attribution-flexbox {
     display: flex;
@@ -109,23 +119,39 @@ h2 {
 #first-article {
     display: flex;
     justify-content: space-between;
-    /* border: solid 2px; */
+    line-height: 1.65;
 }
 
 #first-article div {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /* border: solid 2px; */
-    
+    margin-left: 15px;
 }
 
 #second-article {
     display: flex;
+    margin-top: 25px;
+}
+
+#second-article img {
+    margin-bottom: 33px;
+}
+
+#second-article div p {
+    margin-left: 15px;
+}
+
+#second-article div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 #peeps-list li {
     list-style-type: disc;
+    margin-left: -5px;
+    line-height: 1.35;
 }
 
 #vase-list li {
@@ -144,6 +170,7 @@ h2 {
     margin-left: 10%;
     width: 80%;
     background-color: white;
+    height:1000px;
 }
 
 #borders {
