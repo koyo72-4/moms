@@ -3,6 +3,22 @@ header #top-links {
     background-color: #FFC78F;
 }
 
+header #top-links-flexbox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 60%;
+    height: 100%;
+    font-family: "Lucida Sans";
+    font-size: 14px;
+    padding-right: 15px;
+}
+
+header #top-links-flexbox a {
+    text-decoration: none;
+    color: #AB4D66;
+}
+
 #header-flexbox {
     display: flex;
     justify-content: space-between;
@@ -37,11 +53,25 @@ header #top-links {
     flex-direction: row;
     justify-content: space-between;
     background-color: #BFDCCB;
+    padding: 0 25px 0 15px;
+}
+
+.nav-flexbox li {
+    display: flex;
+    align-items: center;
+    /* font-family: 'Noto Sans', sans-serif; */
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: #8C4C67;
+    font-weight: 700;
+    font-size: 17px;
+    opacity: 0.8;
 }
 
 main {
     width: 60%;
     height: 1000px;
+    margin-left: 30px;
+    font-family: "Lucida Sans";
 }
 
 aside {
@@ -55,9 +85,21 @@ aside {
     height: 500px;
 }
 
+h1 {
+    font: bold 24px "Lucida Sans";
+    margin: 30px 0 5px 0;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
 #attribution-flexbox {
     display: flex;
     justify-content: flex-start;
+    margin-bottom: 35px;
 }
 
 #attribution-flexbox p {
@@ -66,11 +108,16 @@ aside {
 
 #first-article {
     display: flex;
+    justify-content: space-between;
+    /* border: solid 2px; */
 }
 
 #first-article div {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    /* border: solid 2px; */
+    
 }
 
 #second-article {
@@ -93,13 +140,13 @@ aside {
     margin-left: 20px;
 }
 
-.div-center {
+#div-center {
     margin-left: 10%;
     width: 80%;
     background-color: white;
 }
 
-.borders {
+#borders {
     background-color: #D8CBBC;
 }
 
